@@ -1,3 +1,7 @@
+---
+alwaysApply: true
+---
+
 # SwiftUI View File Location Rule
 
 All SwiftUI `View` types MUST be located inside the `/Views` directory.
@@ -7,6 +11,3 @@ Constraints:
 - Every new SwiftUI `View` MUST be created inside `/Views`.
 - The file name MUST match the view name.
 - Each file SHOULD contain only one primary `View`.
-
-Exception:
-The root application entry point that contains the `@main` attribute MUST be placed inside the `/App` directory.

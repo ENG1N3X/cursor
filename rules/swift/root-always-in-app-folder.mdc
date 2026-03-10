@@ -1,0 +1,11 @@
+---
+alwaysApply: true
+---
+
+# Root App File Location Rule
+
+The root application entry point that contains the `@main` attribute MUST be placed inside the `/App` directory.
+
+Constraints:
+- NEVER place the `@main` App file in `/Views`, `/Models`, `/ViewModels`, `/Services`, or `/Networking`.
+- The file name SHOULD match the main App struct name.

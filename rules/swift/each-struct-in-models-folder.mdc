@@ -1,3 +1,7 @@
+---
+alwaysApply: true
+---
+
 # Swift Struct Location Rule
 
 All Swift `struct` types MUST be located inside the `/Models` directory.
