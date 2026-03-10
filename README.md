@@ -1,1 +1,1 @@
-# cursor
+# Правила для Cursor AI

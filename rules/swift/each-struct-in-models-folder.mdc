@@ -1,0 +1,13 @@
+# Swift Struct Location Rule
+
+All Swift `struct` types MUST be located inside the `/Models` directory.
+
+Constraints:
+- NEVER create `struct` definitions inside `/Views`, `/ViewModels`, `/Services`, or `/Networking`.
+- If a new struct is required, create a new file inside `/Models`.
+- The file name MUST match the struct name.
+- Each file SHOULD contain only one primary struct.
+
+Purpose:
+Structs represent data models and must be centralized inside `/Models`
+to keep the project structure predictable.
